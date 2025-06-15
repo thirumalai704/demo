@@ -22,7 +22,7 @@ const cardVariants = {
   visible: { opacity: 1, y: 0, scale: 1, transition: { duration: 0.6, ease: "easeOut" } },
 };
   return (
-    <div className="min-h-screen pb-2 pt-7 md:pt-0 w-full bg-[#14213d] flex items-center justify-center px-4">
+    <div className="min-h-screen md:pb-2  w-full bg-[#14213d] flex items-center justify-center px-4">
         
       <div className="flex  flex-col md:flex-row items-center justify-center gap-12 max-w-6xl">
          
@@ -32,17 +32,14 @@ const cardVariants = {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
-          className="min-w-[250px] lg:min-w-md hidden md:flex ring-gray-400 md:h-[250px] lg:h-[350px]  ring p-3 flex justify-center items-center rounded-md"
+          className="min-w-[250px] lg:min-w-md hidden md:flex ring-gray-400 md:h-[250px] lg:h-[350px]  ring p-2 flex justify-center items-center rounded-md"
         >
          
-          <motion.div
-          initial={{ opacity: 0, y: -100 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 100 }}
-          transition={{ duration: 0.8, ease: "easeInOut" }}
+          <div
+          
           className=" rounded-2xl bg-gradient-to-r from-[#8338ec] to-[#3a86ff] h-full w-full  flex items-center justify-center mx-auto text-6xl ">
             🧑‍💻
-          </motion.div>
+          </div>
         </motion.div>
 
         <motion.div
@@ -52,7 +49,7 @@ const cardVariants = {
           transition={{ duration: 0.5 }}
           className="text-white flex flex-col gap-6 max-w-xl"
         >
-          <h1 className="md:text-3xl  text-lg font-bold bg-gradient-to-r text-transparent bg-clip-text from-blue-600 to-purple-400">
+          <h1 className="md:text-3xl  text-2xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-blue-600 to-purple-400">
             About Me
           </h1>
           <p className=" text-sm leading-6 md:text-md lg:text-lg">

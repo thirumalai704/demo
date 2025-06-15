@@ -10,7 +10,7 @@ function Project() {
       description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
       tags: ["React", "Node.js", "MongoDB", "Stripe"],
       github: "#",
-      live: "#",
+      live: "https://thirudevportfolio.netlify.app/",
     },
     {
       id: 2,

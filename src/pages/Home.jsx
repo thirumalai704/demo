@@ -5,19 +5,19 @@ import { motion, spring } from "framer-motion";
 function Home() {
   return (
     <div>
-      <div className=" text-white bg-[#14213d] h-screen flex items-center">
+      <div className=" text-white bg-[#14213d] min-h-screen flex items-center">
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }}
-          className="flex flex-col space-y-4 md:space-y-10 mx-auto items-center  w-[500px]  "
+          className="flex flex-col space-y-4 md:space-y-10 mx-auto items-center    "
         >
           <motion.h1 
             initial={{x:-100}}
             animate={{x:0}}
             transition={{ type:"spring"}}
-          className="font-bold bg-clip-text text-transparent text-3xl md:text-7xl bg-gradient-to-r from-[#8338ec] to-[#3a86ff]">
+          className="font-bold bg-clip-text text-transparent text-4xl md:text-7xl bg-gradient-to-r from-[#8338ec] to-[#3a86ff]">
             Thirumalaiselvam
           </motion.h1>
 

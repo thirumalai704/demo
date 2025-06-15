@@ -46,7 +46,7 @@ function Contact() {
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.8, ease: "easeInOut" }}
-          className="w-full md:w-1/2 self-center  shadow-amber-400/30 inset-shadow-2xs bg-white/10 backdrop-blur-md p-3 md:p-6 rounded-2xl ring-1 ring-gray-500 md:space-y-6 space-y-3 shadow-lg"
+          className="w-full md:w-1/2 self-center  shadow-blue-400/30  bg-blue-600/10 backdrop-blur-md p-3 md:p-6 rounded-2xl ring-1 ring-gray-500 md:space-y-6 space-y-3 shadow-md"
         >
           <h2 className="text-xl md:text-4xl font-bold text-white/90">
             Get in Touch
@@ -74,7 +74,7 @@ function Contact() {
           transition={{ duration: 0.8, ease: "easeInOut" }}
           ref={form}
           onSubmit={sendEmail}
-          className="w-full md:w-1/2 bg-white/10 backdrop-blur-md p-4 md:p-6 rounded-2xl ring-1 ring-purple-300 md:space-y-4 shadow-2xl"
+          className="w-full md:w-1/2 bg-blue-600/10 backdrop-blur-md p-4 md:p-6 rounded-2xl ring-1 ring-gray-300/50 md:space-y-4 shadow-2xl"
         >
           <h2 className="text-2xl font-bold mb-4 text-white/90">
             Send a Message
@@ -87,7 +87,7 @@ function Contact() {
               placeholder="Enter Your Name"
               type="text"
               required
-              className="w-full p-1 md:p-2 rounded bg-white/20 text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full p-1 md:p-2 rounded bg-gray-600/50 text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
 
@@ -98,7 +98,7 @@ function Contact() {
               placeholder="Enter Your Email"
               type="email"
               required
-              className="w-full p-1 md:p-2 rounded bg-white/20 text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full p-1 md:p-2 rounded bg-gray-600/50 text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
 
@@ -111,7 +111,7 @@ function Contact() {
               type="text"
               placeholder="For Project "
               required
-              className="w-full p-1 md:p-2 rounded bg-white/20 text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full p-1 md:p-2 rounded bg-gray-600/50 text-white focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
 
@@ -124,7 +124,7 @@ function Contact() {
               placeholder="I want Talk To You !!!"
               required
               rows={4}
-              className="w-full p-3 rounded bg-white/20 text-white resize-none focus:outline-none focus:ring-2 focus:ring-blue-400"
+              className="w-full p-3 rounded bg-gray-600/50 text-white resize-none focus:outline-none focus:ring-2 focus:ring-blue-400"
             />
           </div>
 
