@@ -1,6 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "@emailjs/browser";
 import { motion } from "framer-motion";
+
 function Contact() {
   const form = useRef();
   const [status, setStatus] = useState("");
@@ -35,7 +36,7 @@ function Contact() {
   ];
 
   return (
-    <div className="min-h-screen bg-gradient-to-r from-[#14213d] to-[#1a1a2e] text-white py-10 px-3">
+    <div className="min-h-screen bg-[#14213d] text-white py-10 px-3">
       <h1 className="text-center bg-gradient-to-r md:pt-7 from-[#8338ec] to-[#3a86ff] bg-clip-text text-transparent text-2xl md:text-5xl mb-3 md:mb-7 font-bold ">
         Contact Me
       </h1>

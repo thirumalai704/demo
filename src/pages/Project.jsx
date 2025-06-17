@@ -1,43 +1,52 @@
 import React from "react";
 import { motion } from "framer-motion";
 
+
 function Project() {
   const projects = [
     {
       id: 1,
-      icons:"🏠",
-      title: "E-Commerce Platform",
-      description: "A full-stack e-commerce solution with React, Node.js, and MongoDB",
-      tags: ["React", "Node.js", "MongoDB", "Stripe"],
-      github: "#",
-      live: "https://thirudevportfolio.netlify.app/",
+      icons:"🎵",
+      title: "Spotify Clone",
+      description: "Spotify clone using React js",
+      tags: ["React", "Tailwindcss", "HTML"],
+      
+      live: "https://spotifythiru.netlify.app/",
     },
     {
       id: 2,
-      icons:"🏠",
-      title: "AI Chat Application",
-      description: "Real-time chat app with AI integration and WebSocket connections",
-      tags: ["React", "Socket.io", "OpenAI", "Express"],
-      github: "#",
-      live: "#",
+      icons:"💰",
+      title: "Expense Tracker",
+      description: "Expense Tracker using Mern Stack",
+      tags: ["React", "Node.js", "Express","MongoDB"],
+      
+      live: "https://mernexpense.netlify.app/",
     },
     {
       id: 3,
-      title: "Spotify Clone",
-      icons:"🏠",
-      description: "Animated portfolio with Three.js and Framer Motion",
+      title: "Movie Search",
+      icons:"🍿",
+      description: "Mobie Search Using API",
       tags: ["React", "Three.js", "Framer Motion"],
-      github: "#",
-      live: "#",
+      live: "https://movie-search-bay-sigma.vercel.app/",
     },
     {
       id: 4,
-      title: "Task Management App",
-      icons:"🏠",
-      description: "Collaborative task management with real-time updates",
-      tags: ["React", "Firebase", "Material-UI", "PWA"],
+      title: "Fylo",
+      icons:"📱",
+      description: "Responsive Website make using Tailwindcss ",
+      tags: ["Tailwindcss","HTML","CSS","JavaScript"],
       github: "#",
-      live: "#",
+      live: "https://fylo-thiru.netlify.app/",
+    },
+    {
+      id: 5,
+      title: "Hotal",
+      icons:"🧑‍💻",
+      description: "CRUD oparation in hotal as  adding cart removeing items  ",
+      tags: ["React.js","Tailwindcss","HTML","CSS"],
+      github: "#",
+      live: "https://swiggy-clone-e057nwv3k-thirus-projects-c72f6104.vercel.app/cart",
     },
   ];
 

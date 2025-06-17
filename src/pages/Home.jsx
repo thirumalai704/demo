@@ -1,17 +1,25 @@
 import React from "react";
 import { FaBook, FaBrain, FaHome } from "react-icons/fa";
 import { NavLink } from "react-router";
+import About from "./About";
+
+import Contact from "./Contact";
+import Resume from "./Resume";
+import Skill from "./Skill";
+import Project from "./Project";
 import { motion, spring } from "framer-motion";
 function Home() {
   return (
-    <div>
-      <div className=" text-white bg-[#14213d] min-h-screen flex items-center">
+    <div 
+    >
+      
+      <div className=" text-white bg-[#14213d]  min-h-screen flex items-center">
         <motion.div
           initial={{ opacity: 0, x: -100 }}
           animate={{ opacity: 1, x: 0 }}
           exit={{ opacity: 0, x: 100 }}
           transition={{ duration: 0.5 }}
-          className="flex flex-col space-y-4 md:space-y-10 mx-auto items-center    "
+          className="flex  flex-col space-y-4 md:space-y-10 mx-auto items-center    "
         >
           <motion.h1 
             initial={{x:-100}}
@@ -47,6 +55,11 @@ function Home() {
           </div>
         </motion.div>
       </div>
+       <About />
+      < Skill />
+      <Resume />
+      <Project />
+      <Contact />
     </div>
   );
 }

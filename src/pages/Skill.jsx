@@ -43,7 +43,7 @@ const Skills = () => {
   };
 
   return (
-    <div className="min-h-screen pb-10 md:pb-0 ">
+    <div className="min-h-screen bg-[#14213d] pb-10 md:pb-0 ">
 
     <motion.div
       initial={{ opacity: 0, rotateY: 90 }}

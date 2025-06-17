@@ -2,4 +2,18 @@
 
 .custom-bounce {
   animation-duration: 5s;
+ 
+}
+::-webkit-scrollbar{
+  width: 15px;
+ 
+  background: linear-gradient(180deg, #5b2d9f, #7a8aa8);
+}
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #7a3ada, #3D86FF); 
+  border-radius: 8px;
+}
+
+body {
+  cursor: url('/icons8-cursor-48.png') 0 0, auto;
 }

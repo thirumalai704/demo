@@ -17,7 +17,7 @@ function Navbar() {
   return (
     <>
       {/* Desktop Navbar */}
-      <nav className="bg-[#1A1B2F]/10 hidden md:flex md:p-4 backdrop-blur-md justify-center rounded-b-md fixed w-full z-20 top-0 start-0 border-b-2 px-4 shadow-md border-[#3A3A4B]">
+      <nav className="bg-[#1A1B2F]/10 hidden md:flex md:p-4 backdrop-blur-md justify-center rounded-b-md fixed w-full z-40 top-0 start-0 border-b-2 px-4 shadow-md border-[#3A3A4B]">
         <div className="w-full flex justify-center items-center space-x-8">
           {navigationItems.map((item, index) => (
             <NavLink
