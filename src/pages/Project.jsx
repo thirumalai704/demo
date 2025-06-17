@@ -46,7 +46,7 @@ function Project() {
       description: "CRUD oparation in hotal as  adding cart removeing items  ",
       tags: ["React.js","Tailwindcss","HTML","CSS"],
       github: "#",
-      live: "https://swiggy-clone-e057nwv3k-thirus-projects-c72f6104.vercel.app/cart",
+      live: "https://swiggy-clone-tau-eight.vercel.app/",
     },
   ];
 
